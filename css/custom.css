@@ -10,14 +10,29 @@ body{
     margin-bottom: 70px;
 }
 
-/* Skills */
+/* SKILLS */
 
 .skillsContainer {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-row-gap: 4vh;
+  grid-column-gap: 3vh;
 }
 
-/* Taken from portfolio 2 for the Applications part of portfolio main.css*/
+.skillsContainer svg {
+  height: 8vh;
+  width: 8vw;
+}
+
+.skillsContainer div {
+    min-width: 10vw;
+}
+
+.skillsContainer div div {
+  min-height: 8vh;
+}
+
+/* APPLICATIONS -Taken from portfolio 2 for the Applications part of portfolio main.css*/
 figure {
     background: #fff;
     margin-bottom: 45px;
@@ -79,8 +94,10 @@ figure:hover .overlay {
   }
   figure .buttons {
     position: absolute;
-    top: 45%;
-    left: 15%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
   }
   figure figcaption {
     padding: 20px 25px;
@@ -97,4 +114,14 @@ figure:hover .overlay {
     font-size: 14px;
     margin-bottom: 0;
     margin-top: 5px;
+  }
+
+  .img-responsive {
+      max-width: 60%;
+      width: auto;
+      margin: 0 auto;
+  }
+
+  figure .img-responsive {
+    max-height: 150px;
   }
