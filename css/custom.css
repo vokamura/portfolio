@@ -125,3 +125,16 @@ figure:hover .overlay {
   figure .img-responsive {
     max-height: 150px;
   }
+
+  /* FOOTER */
+  #footer {
+    background-color: #555555;
+  }
+
+  #footer p.social a.linkedin {
+    background-color: #0077b5;
+  }
+
+  #footer p.social a.github {
+    background-color: #333;
+  }
