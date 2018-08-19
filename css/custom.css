@@ -14,11 +14,18 @@ body{
   color: black;
 }
 
-/* @media (max-width: 1199px) {
+@media (max-width: 1199px) {
   #intro .item h2 {
     font-size: 25px;
+    margin-bottom: 222px;
   }
-} */
+}
+
+@media screen and (min-width: 768px) {
+.carousel-caption {
+    padding-bottom: 130px;
+}
+}
 
 
 /* SKILLS */
