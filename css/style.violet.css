@@ -21,7 +21,7 @@ NAVBAR
 =====================
 
 */
-.navbar {
+/* .navbar {
   border: none;
 }
 .navbar ul.nav > li > a {
@@ -47,7 +47,7 @@ NAVBAR
   .navbar ul.nav > li.open > a {
     border-top: solid 5px transparent;
   }
-}
+} */
 /*
 
 =====================
@@ -904,7 +904,7 @@ strong {
 }
 /* Original Boostrap template overwrite */
 /* nav */
-.nav {
+/* .nav {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
@@ -973,9 +973,9 @@ strong {
   .nav-tabs-justified > .active > a:focus {
     border-bottom-color: #ffffff;
   }
-}
+} */
 /* navbar */
-.navbar {
+/* .navbar {
   font-family: 'Roboto Slab', serif;
   min-height: 80px;
   margin-bottom: 30px;
@@ -1231,7 +1231,7 @@ strong {
   .navbar-default .navbar-right {
     float: right !important;
   }
-}
+} */
 /* scaffolding */
 body {
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
