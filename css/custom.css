@@ -285,10 +285,6 @@ figure:hover .overlay {
     color: #B9D3C8; 
   }
 
-  #email {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-  }
   /* IMAGE SHAKE */
 
   .socialMedia :hover {
