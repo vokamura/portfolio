@@ -59,6 +59,30 @@ body{
   height: 100vh;
 } */
 
+/* ABOUT ME */
+
+#profilePic {
+  min-width: 60%;
+  max-width: 400px;
+}
+
+#profileText {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  #profilePic {
+    max-width: 60%;
+    min-width: 300px;
+  }
+
+  #profileText {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 0px) {
@@ -123,6 +147,10 @@ body{
 
 .skillsContainer div div {
   min-height: 7vh;
+}
+
+.skillsContainer h2 {
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 600px) {
@@ -217,10 +245,11 @@ figure:hover .overlay {
     margin-top: 5px;
   }
 
-  .img-responsive {
+  .img-wrapper > .img-responsive {
       max-width: 60%;
       width: auto;
       margin: 0 auto;
+      padding: 3%;
   }
 
   figure .img-responsive {
@@ -229,7 +258,7 @@ figure:hover .overlay {
 
   /* FOOTER */
   #footer {
-    background-color: #555555;
+    background-color: #777777;
   }
 
   /* #footer p.social a.linkedin {
@@ -246,6 +275,10 @@ figure:hover .overlay {
 
   .footerTitle{
     color: white;
+  }
+
+  #footer a {
+    color: #B9D3C8; 
   }
   /* IMAGE SHAKE */
 
