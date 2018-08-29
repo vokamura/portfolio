@@ -131,9 +131,11 @@ body{
 
 .skillsContainer {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  /* grid-template-columns: auto auto auto auto auto auto; */
+  grid-template-columns: 11vw 11vw 11vw 11vw 11vw 11vw;
   grid-row-gap: 4vh;
-  grid-column-gap: 3vh;
+  grid-column-gap: 3vw;
+  justify-content: center;
 }
 
 .skillsContainer svg {
@@ -281,6 +283,11 @@ figure:hover .overlay {
 
   #footer a {
     color: #B9D3C8; 
+  }
+
+  #email {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
   /* IMAGE SHAKE */
 
