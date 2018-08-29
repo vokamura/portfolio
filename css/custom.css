@@ -55,9 +55,9 @@ body{
 }
 
 /* APPLICATIONS */
-#applications {
+/* #applications {
   height: 100vh;
-}
+} */
 
 
 /* MEDIA QUERIES */
@@ -84,6 +84,10 @@ body{
     font-size: 25px;
     margin-bottom: 100px;
   }
+}
+
+@media only scree and (min-width: 993px) { 
+
 }
 
 @media only screen and (min-width: 1199px) {
@@ -228,14 +232,21 @@ figure:hover .overlay {
     background-color: #555555;
   }
 
-  #footer p.social a.linkedin {
+  /* #footer p.social a.linkedin {
     background-color: #0077b5;
   }
 
   #footer p.social a.github {
     background-color: #333;
+  } */
+
+  #footer p {
+    text-align:center;
   }
 
+  .footerTitle{
+    color: white;
+  }
   /* IMAGE SHAKE */
 
   .socialMedia :hover {
