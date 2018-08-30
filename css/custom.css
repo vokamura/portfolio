@@ -88,16 +88,29 @@ body{
 @media only screen and (min-width: 0px) {
   #intro .item h2 {
     font-size: 25px;
-    margin-bottom: 183px;
+    margin-bottom: 150px;
+  }
+  .logo img {
+    width: 110px;
+  }
+} 
+@media only screen and (min-width: 350px) {
+  #intro .item h2 {
+    font-size: 25px;
+    margin-bottom: 180px;
+  }
+  .logo img {
+    width: 150px;
   }
 } 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 400px) {
   #intro .item h2 {
     font-size: 25px;
-    margin-bottom: 222px;
+    margin-bottom: 225px;
   }
 } 
+
 
 @media only screen and (min-width: 768px) {
   
@@ -106,7 +119,7 @@ body{
   }
   #intro .item h2 {
     font-size: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 125px;
   }
 }
 
