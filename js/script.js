@@ -6,7 +6,6 @@ window.onload = function(){
 }
 
 function menuButton(){
-    // debugger;
     if (!document.getElementById("navigation").classList.contains("in")){
         document.getElementsByTagName("body")[0].setAttribute("data-toggle", "collapse");
         document.getElementsByTagName("body")[0].setAttribute("data-target", ".navbar-collapse");
@@ -18,9 +17,11 @@ function menuButton(){
     }
 }
 
+//when navbar is open, add this to body
+// margin: 0;
+// padding: 0 !important;
+
 function removeMenu(){
-    console.log("remove");
-    // debugger;
     if(document.getElementsByTagName("body")[0].hasAttribute("data-toggle") && document.getElementById("navigation").classList.contains("in")){
         document.getElementsByClassName("navbar-collapse")[0].classList.remove("in");
         document.getElementsByTagName("body")[0].removeAttribute("data-toggle", "collapse");
@@ -29,4 +30,17 @@ function removeMenu(){
     }
 }
 
-// document.querySelectorAll("body > div:not(.first)")
+window.onload = function (){ 
+    if ("ontouchstart" in document.documentElement)
+    {
+        console.log("device is touch");
+        console.log(document.getElementsByClassName("buttons"));
+        document.getElementsByClassName("buttons").classList.add("mobileBtns");
+        //overlay and buttons class need to not be absolute
+        // document.getElementsByClassName
+    }
+    else
+    {
+        console.log("device isn't touch");
+    }
+}
