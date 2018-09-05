@@ -54,11 +54,6 @@ body{
   }
 }
 
-/* APPLICATIONS */
-/* #applications {
-  height: 100vh;
-} */
-
 /* ABOUT ME */
 
 #profilePic {
@@ -88,26 +83,26 @@ body{
 @media only screen and (min-width: 0px) {
   #intro .item h2 {
     font-size: 25px;
-    margin-bottom: 150px;
+    margin-bottom: 50%;
   }
   .logo img {
-    width: 110px;
+    width: 35%;
   }
 } 
 @media only screen and (min-width: 350px) {
   #intro .item h2 {
     font-size: 25px;
-    margin-bottom: 180px;
+    margin-bottom: 60%;
   }
   .logo img {
     width: 150px;
   }
 } 
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 520px) {
   #intro .item h2 {
     font-size: 25px;
-    margin-bottom: 225px;
+    margin-bottom: 37%;
   }
 } 
 
@@ -272,9 +267,23 @@ figure:hover .overlay {
     max-height: 150px;
   }
 
-  @media only screen and (min-width: 400px) {
+  .mobileBtns{
+    position: relative !important;
+    opacity: 1 !important;
+    text-decoration: none;
+  }
+  
+  .mobileLinks{
+    outline: 0 !important;
+    text-decoration: none !important;
+    transform: scale3d(1, 1, 1) !important;
+  }
+  
+  .navBarOpen {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 
-  } 
 
   /* FOOTER */
   #footer {
@@ -302,7 +311,6 @@ figure:hover .overlay {
   }
 
   /* IMAGE SHAKE */
-
   .socialMedia :hover {
     animation: shake 2s;
     animation-iteration-count: infinite;
@@ -326,19 +334,4 @@ figure:hover .overlay {
     }
   }
 
-.mobileBtns{
-  position: relative !important;
-  opacity: 1 !important;
-  text-decoration: none;
-}
 
-.mobileLinks{
-  outline: 0 !important;
-  text-decoration: none !important;
-  transform: scale3d(1, 1, 1) !important;
-}
-
-.navBarOpen {
-  margin: 0 !important;
-  padding: 0 !important;
-}
