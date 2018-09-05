@@ -83,7 +83,7 @@ body{
 @media only screen and (min-width: 0px) {
   #intro .item h2 {
     font-size: 25px;
-    margin-bottom: 50%;
+    margin-bottom: 45%;
   }
   .logo img {
     width: 35%;
@@ -92,7 +92,7 @@ body{
 @media only screen and (min-width: 350px) {
   #intro .item h2 {
     font-size: 25px;
-    margin-bottom: 60%;
+    margin-bottom: 50%;
   }
   .logo img {
     width: 150px;
