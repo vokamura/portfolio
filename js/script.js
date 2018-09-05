@@ -33,12 +33,12 @@ function removeMenu(){
 window.onload = function (){ 
     if ("ontouchstart" in document.documentElement)
     {
-        console.log("device is touch");
-        console.log(document.getElementsByClassName("buttons"));
-        debugger;
         for (var i=0; i < document.getElementsByClassName("buttons").length; i++){
             document.getElementsByClassName("buttons")[i].classList.add("mobileBtns");
             document.getElementsByClassName("overlay")[i].classList.add("mobileBtns");
+        }
+        for (var i=0; i< document.getElementsByClassName("fancybox").length; i++){
+            document.getElementsByClassName("fancybox")[i].classList.add("mobileLinks");
         }
     }
     else
@@ -46,7 +46,3 @@ window.onload = function (){
         console.log("device isn't touch");
     }
 }
-
-// figure:hover .overlay {
-//     opacity: 1;
-// }

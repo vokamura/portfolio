@@ -331,10 +331,9 @@ figure:hover .overlay {
   opacity: 1 !important;
   text-decoration: none;
 }
-/* 
-figure:hover .overlay .buttons a {
-  -webkit-transform: scale3d(1, 1, 1);
-  transform: scale3d(1, 1, 1);
-} */
 
-/* text-decoration: none; */
+.mobileLinks{
+  outline: 0 !important;
+  text-decoration: none !important;
+  transform: scale3d(1, 1, 1) !important;
+}
