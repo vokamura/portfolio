@@ -35,12 +35,18 @@ window.onload = function (){
     {
         console.log("device is touch");
         console.log(document.getElementsByClassName("buttons"));
-        document.getElementsByClassName("buttons").classList.add("mobileBtns");
-        //overlay and buttons class need to not be absolute
-        // document.getElementsByClassName
+        debugger;
+        for (var i=0; i < document.getElementsByClassName("buttons").length; i++){
+            document.getElementsByClassName("buttons")[i].classList.add("mobileBtns");
+            document.getElementsByClassName("overlay")[i].classList.add("mobileBtns");
+        }
     }
     else
     {
         console.log("device isn't touch");
     }
 }
+
+// figure:hover .overlay {
+//     opacity: 1;
+// }

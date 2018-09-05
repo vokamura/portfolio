@@ -326,6 +326,15 @@ figure:hover .overlay {
     }
   }
 
-.mobileBtns {
-  position: relative;
+.mobileBtns{
+  position: relative !important;
+  opacity: 1 !important;
+  text-decoration: none;
 }
+/* 
+figure:hover .overlay .buttons a {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+} */
+
+/* text-decoration: none; */
