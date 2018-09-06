@@ -1,5 +1,3 @@
-/* your styles go here */
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,600');
 
 body{
@@ -67,7 +65,6 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
-  
   #profilePic {
     max-width: 60%;
     min-width: 300px;
@@ -79,7 +76,7 @@ body{
   }
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES FOR INTRO*/
 @media only screen and (min-width: 0px) {
   #intro .item h2 {
     font-size: 25px;
@@ -106,9 +103,7 @@ body{
   }
 } 
 
-
 @media only screen and (min-width: 768px) {
-  
   .carousel-caption {
       padding-bottom: 130px;
   }
@@ -116,10 +111,6 @@ body{
     font-size: 25px;
     margin-bottom: 125px;
   }
-}
-
-@media only scree and (min-width: 993px) { 
-
 }
 
 @media only screen and (min-width: 1199px) {
@@ -177,7 +168,7 @@ figure {
     margin-bottom: 45px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04), 0 2px 10px 0 rgba(0, 0, 0, 0.06);
     min-height: 40vh;
-    max-height: 40%;
+    max-height: 40vh;
   }
   figure .img-wrapper {
     position: relative;
@@ -241,7 +232,8 @@ figure:hover .overlay {
     bottom: 25%;
   }
   figure figcaption {
-    padding: 20px 25px;
+    /* padding: 20px 25px; */
+    padding: 3px 25px;
     margin-top: 0;
     color: #666;
   }
@@ -284,6 +276,15 @@ figure:hover .overlay {
     padding: 0 !important;
   }
 
+  @media screen and (min-width: 600px) and (max-width: 768px) {
+    /* Have two apps next to each other in between the above sizes */
+    .col-xsm-6 {
+      float: left;
+    }
+    .col-xsm-6 {
+      width: 50%;
+    }
+  }
 
   /* FOOTER */
   #footer {
@@ -333,5 +334,4 @@ figure:hover .overlay {
       transform: translate3d(4px, 0, 0);
     }
   }
-
 
