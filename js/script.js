@@ -40,6 +40,7 @@ window.onload = function (){
         for (var i=0; i < document.getElementsByClassName("buttons").length; i++){
             document.getElementsByClassName("buttons")[i].classList.add("mobileBtns");
             document.getElementsByClassName("overlay")[i].classList.add("mobileBtns");
+            document.getElementsByTagName("figure")[i].classList.add("mobileApps");
         }
         for (var i=0; i< document.getElementsByClassName("fancybox").length; i++){
             document.getElementsByClassName("fancybox")[i].classList.add("mobileLinks");
@@ -47,6 +48,7 @@ window.onload = function (){
     }
     else
     {
-        console.log("device isn't touch");
+        // console.log("device isn't touch");
     }
 }
+
