@@ -93,6 +93,7 @@ body{
   }
   .logo img {
     width: 30%;
+    max-width: 200px;
   }
 } 
 
