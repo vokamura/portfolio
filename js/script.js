@@ -1,10 +1,10 @@
 //Add email address dynamically
-window.onload = function(){
-    console.log("Loaded");
-    const email = "vikkiokamura@gmail.com"
-    document.getElementById("emailaddress").href = "mailto:" + email;
-    document.getElementById("emailaddress").textContent= email;
-}
+// window.onload = function(){
+//     console.log("Loaded");
+//     const email = "vikkiokamura@gmail.com"
+//     document.getElementById("emailaddress").href = "mailto:" + email;
+//     document.getElementById("emailaddress").textContent= email;
+// }
 
 function menuButton(){
     //If nav bar is open, then allow body to be clicked to close
@@ -35,6 +35,9 @@ function removeMenu(){
 
 //See if screen has touch capability and if not, then have button links for apps show up automatically and not on hover
 window.onload = function (){ 
+    const email = "vikkiokamura@gmail.com"
+    document.getElementById("emailaddress").href = "mailto:" + email;
+    document.getElementById("emailaddress").textContent= email;
     if ("ontouchstart" in document.documentElement)
     {
         for (var i=0; i < document.getElementsByClassName("buttons").length; i++){
