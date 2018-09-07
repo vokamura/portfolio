@@ -280,6 +280,11 @@ figure:hover .overlay {
     padding: 0 !important;
   }
 
+  .mobileApps {
+    min-height: 50vh;
+    max-height: 55vh;
+}
+
   @media screen and (min-width: 600px) and (max-width: 768px) {
     /* Have two apps next to each other in between the above sizes */
     .col-xsm-6 {
