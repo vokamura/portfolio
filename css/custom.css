@@ -172,7 +172,7 @@ figure {
     margin-bottom: 45px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04), 0 2px 10px 0 rgba(0, 0, 0, 0.06);
     min-height: 40vh;
-    max-height: 40vh;
+    /* max-height: 40vh; */
   }
   figure .img-wrapper {
     position: relative;
@@ -282,7 +282,7 @@ figure:hover .overlay {
 
   .mobileApps {
     min-height: 50vh;
-    max-height: 55vh;
+    /* max-height: 55vh; */
 }
 
   @media screen and (min-width: 600px) and (max-width: 768px) {
