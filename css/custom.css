@@ -167,6 +167,10 @@ body{
 #agile {
   height: 8vh;
 }
+
+#wordpress{
+  height: 9vh;
+}
 /* APPLICATIONS -Taken from portfolio 2 for the Applications part of portfolio main.css*/
 figure {
     background: #fff;
