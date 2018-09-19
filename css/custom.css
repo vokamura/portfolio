@@ -58,13 +58,10 @@ color: black;
 }
 
 .carousel-caption{
-  bottom: 25%;
+  top: 20%;
 }
 
 @media only screen and (max-height: 645px){
-  .carousel-caption{
-    bottom: 13%;
-  }
   .logo img {
     width: 100px;
   }
