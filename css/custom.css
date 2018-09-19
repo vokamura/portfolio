@@ -119,11 +119,6 @@ color: black;
   color: #ffffff;
 }
 
-#agile{
-  width: 9vh;
-  height: auto;
-}
-
 @media only screen and (max-width: 600px) {
   .skillsContainer {
     display: grid;
@@ -131,10 +126,6 @@ color: black;
     grid-row-gap: 4vh;
     grid-column-gap: 3vh;
   }
-  #agile {
-    width: 8vh !important;
-  }
-
 }
 
 /* APPLICATIONS -Taken from portfolio 2 for the Applications part of portfolio main.css*/
