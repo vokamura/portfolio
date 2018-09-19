@@ -119,6 +119,11 @@ color: black;
   color: #ffffff;
 }
 
+#agile, #wordpress {
+  width: 9vh;
+  height: auto;
+}
+
 @media only screen and (max-width: 600px) {
   .skillsContainer {
     display: grid;
@@ -126,22 +131,12 @@ color: black;
     grid-row-gap: 4vh;
     grid-column-gap: 3vh;
   }
-  #agile {
-    height: 7vh !important;
+  #agile, #wordpress {
+    width: 8vh !important;
   }
-  
-  #wordpress{
-    height: 8vh !important;
-  }
+
 }
 
-#agile {
-  height: 8vh;
-}
-
-#wordpress{
-  height: 9vh !important;
-}
 /* APPLICATIONS -Taken from portfolio 2 for the Applications part of portfolio main.css*/
 figure {
     background: #fff;
