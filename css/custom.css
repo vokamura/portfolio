@@ -4,15 +4,6 @@ body{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
-#intro .item .logo {
-    margin-bottom: 3%;
-}
-
-#intro .item h1, #intro .item h2 {
-  color: black;
-}
-
-
 /* NAVBAR */
 
 @media (max-width: 993px) {
@@ -52,6 +43,33 @@ body{
   }
 }
 
+/* INTRO */
+
+#intro .item h1, #intro .item h2 {
+color: black;
+}
+
+#intro .item .logo {
+  margin-bottom: 0;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.carousel-caption{
+  bottom: 25%;
+}
+
+@media only screen and (max-height: 645px){
+  .carousel-caption{
+    bottom: 13%;
+  }
+  .logo img {
+    width: 100px;
+  }
+}
+
 /* ABOUT ME */
 
 #profilePic {
@@ -73,57 +91,6 @@ body{
   #profileText {
     margin-top: 0;
     margin-bottom: 0;
-  }
-}
-
-/* MEDIA QUERIES FOR INTRO*/
-@media only screen and (min-width: 0px) {
-  #intro .item h2 {
-    font-size: 25px;
-    margin-bottom: 20%;
-  }
-  .logo img {
-    width: 30%;
-  }
-} 
-@media only screen and (min-width: 350px) {
-  #intro .item h2 {
-    font-size: 25px;
-    margin-bottom: 45%;
-  }
-  .logo img {
-    width: 30%;
-    max-width: 200px;
-  }
-} 
-
-@media only screen and (min-width: 520px) {
-  #intro .item h2 {
-    font-size: 25px;
-    margin-bottom: 37%;
-  }
-} 
-
-@media only screen and (min-width: 768px) {
-  .carousel-caption {
-      padding-bottom: 130px;
-  }
-  #intro .item h2 {
-    font-size: 25px;
-    margin-bottom: 125px;
-  }
-}
-
-@media only screen and (min-width: 1199px) {
-  #intro .item h2 {
-    font-size: 25px;
-    margin-bottom: 222px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  #intro .item h2 {
-    margin-bottom: 100px;
   }
 }
 
@@ -354,4 +321,3 @@ figure:hover .overlay {
       transform: translate3d(4px, 0, 0);
     }
   }
-
