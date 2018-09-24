@@ -71,13 +71,13 @@ color: black;
 
 #profilePic {
   min-width: 60%;
-  max-width: 380px;
+  max-width: 350px;
 }
 
-#profileText {
+/* #profileText {
   margin-top: 6rem;
   margin-bottom: 3rem;
-}
+} */
 
 @media only screen and (max-width: 768px) {
   #profilePic {
