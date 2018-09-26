@@ -1,11 +1,3 @@
-//Add email address dynamically
-// window.onload = function(){
-//     console.log("Loaded");
-//     const email = "vikkiokamura@gmail.com"
-//     document.getElementById("emailaddress").href = "mailto:" + email;
-//     document.getElementById("emailaddress").textContent= email;
-// }
-
 function menuButton(){
     //If nav bar is open, then allow body to be clicked to close
     if (!document.getElementById("navigation").classList.contains("in")){
@@ -55,6 +47,7 @@ window.onload = function (){
     }
 }
 
+//If on mobile and menu is open, tap drag will close menu
 function dragMove(){
     if (document.getElementById("navigation").classList.contains("in")){
         document.getElementsByClassName("navbar-collapse")[0].classList.remove("in");
