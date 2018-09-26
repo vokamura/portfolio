@@ -199,6 +199,7 @@ figure:hover .overlay {
   }
   figure figcaption h4 {
     margin: 0;
+    padding-top: 5px;
   }
   figure figcaption h4 a {
     color: #02bdd5;
