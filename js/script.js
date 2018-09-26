@@ -55,3 +55,8 @@ window.onload = function (){
     }
 }
 
+function dragMove(){
+    if (document.getElementById("navigation").classList.contains("in")){
+        document.getElementsByClassName("navbar-collapse")[0].classList.remove("in");
+    }
+}
